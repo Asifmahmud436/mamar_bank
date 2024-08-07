@@ -19,7 +19,7 @@ SECRET_KEY = env("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ALLOWED_HOSTS = ["*"]
-# CSRF_TRUSTED_ORIGINS = ['https://mamar-bank.onrender.com','https://*.127.0.0.1']m
+CSRF_TRUSTED_ORIGINS = ['https://mamar-bank-147u.onrender.com','https://*.127.0.0.1']
 
 # Application definition
 
