@@ -110,7 +110,7 @@ WSGI_APPLICATION = 'mamar_bank.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://mamarbank_999r_user:UWSDyor7MOg6EAhYpQOHkZV3jJvRy8p4@dpg-cqvlu4lds78s739mflsg-a.oregon-postgres.render.com/mamarbank_999r',
+        default='postgresql://library_7huv_user:fqTLRnJy4HTssIi97uV3qQc0hx44mZv5@dpg-cr13gr3qf0us73fihmdg-a.oregon-postgres.render.com/library_7huv',
     )
 }
 # Password validation

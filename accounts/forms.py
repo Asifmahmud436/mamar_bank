@@ -10,7 +10,7 @@ class UserRegistrationForm(UserCreationForm):
     gender = forms.ChoiceField(choices=GENDER_TYPE)
     account_type = forms.ChoiceField(choices=ACCOUNT_TYPE)
     street_address = forms.CharField(max_length=100)
-    city = forms.CharField(max_length= 100)
+    city = forms.CharField(max_length=100)
     postal_code = forms.IntegerField()
     country = forms.CharField(max_length=100)
     class Meta:
